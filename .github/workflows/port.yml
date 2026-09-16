@@ -10,6 +10,7 @@ on:
         options:
           - OnePlus13
           - OnePlus15
+          - Ace3
       stock_url:
         description: "OnePlus stock ROM link for that device (full OTA/fastboot zip or payload.bin)"
         required: true
