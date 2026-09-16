@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<displayConfiguration>
+    <densityMapping>
+        <density>
+            <height>2780</height>
+            <width>1264</width>
+            <density>480</density>
+        </density>
+    </densityMapping>
+</displayConfiguration>
+
+<!-- Refresh rate: the panel exposes 120/90/60 at both resolutions.
+         Without this block defaultPeakRefreshRate falls back to 60. -->
+    <refreshRate>
+        <defaultRefreshRate>120</defaultRefreshRate>
+        <defaultPeakRefreshRate>120</defaultPeakRefreshRate>
+    </refreshRate>
+
+    <!-- Bind the OnePlus ambient light sensor (tcs3720, type 5 / android.sensor.light).
+         An empty <name> matches the default sensor of that type. -->
+    <ambientLightSensor>
+        <type>android.sensor.light</type>
+        <name></name>
+        <refreshRateRange>
+            <minimum>0</minimum>
+            <maximum>120</maximum>
+        </refreshRateRange>
+    </ambientLightSensor>
