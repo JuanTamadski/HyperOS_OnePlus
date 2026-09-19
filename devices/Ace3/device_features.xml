@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Device features for OnePlus 13 (ossi / PJZ110), adapted from nezha (Xiaomi 17 Ultra).
+<!-- Device features for OnePlus Ace 3 (astonc / PJE110), adapted from nezha (Xiaomi 17 Ultra).
      Read by miui.util.FeatureParser at /product/etc/device_features/${ro.product.device}.xml -->
 <features>
 <!-- BSP BEGIN -->
@@ -40,7 +40,7 @@
     <!--max number of burst images one time -->
     <integer name="burst_shoot_count">100</integer>
     <!--max cpu freq of the device (SM8750 Snapdragon 8 Elite, 4.32GHz)-->
-    <integer name="cpu_max_freq">432</integer>
+    <integer name="cpu_max_freq">320</integer>
     <!-- whether support ai task button -->
     <bool name="support_ai_task">false</bool>
     <!-- whether support truetone -->
@@ -238,18 +238,18 @@
     <!-- whether support a2dp latency-->
     <bool name="support_a2dp_latency">true</bool>
     <!-- whether support adv audio unicast-->
-    <string name="support_adv_audio_unicast">ossi</string>
+    <string name="support_adv_audio_unicast">astonc</string>
     <!-- whether support adv audio broadcast assistant-->
-    <string name="support_adv_audio_bca">ossi</string>
+    <string name="support_adv_audio_bca">astonc</string>
     <!-- whether support adv audio broadcast source-->
-    <string name="support_adv_audio_bcs">ossi</string>
+    <string name="support_adv_audio_bcs">astonc</string>
     <!-- whether support dbam -->
-    <string name="support_bt_dbam">ossi</string>
-    <string name="support_audio_share_ui">ossi</string>
+    <string name="support_bt_dbam">astonc</string>
+    <string name="support_audio_share_ui">astonc</string>
     <!-- whether support watchHfp switch device-->
-    <string name="support_watchHfp_switch_device">ossi</string>
+    <string name="support_watchHfp_switch_device">astonc</string>
     <!-- whether support virtual call-->
-    <string name="support_virtual_call">ossi</string>
+    <string name="support_virtual_call">astonc</string>
 <!-- Bluethooth END -->
 
 <!-- Display BEGIN -->
@@ -310,7 +310,7 @@
         <item>96</item>
     </integer-array>
     <!-- whether support low brightness FOD (ultrasonic sensor, not optical) -->
-    <bool name="support_low_brightness_fod">false</bool>
+    <bool name="support_low_brightness_fod">false/bool>
     <!-- whether support simplified colormode -->
     <bool name="support_simplified_colormode">true</bool>
     <!--Configuration for default color mode -->
@@ -383,7 +383,7 @@
     <bool name="support_low_flicker_backlight">false</bool>
     <!-- whether show low flicker in display menu -->
     <bool name="hide_flicker_backlight">true</bool>
-    <string name="support_p1glite">ossi</string>
+    <string name="support_p1glite">astonc</string>
     <integer-array name="display_version_18_knock_area">
         <!-- left  -->
         <item>270</item>
@@ -395,14 +395,14 @@
         <item>2904</item>
     </integer-array>
     <!-- panel height in px: OnePlus 13 is 1440x3168 -->
-    <integer name="display_width">3168</integer>
+    <integer name="display_width">2772</integer>
     <!-- whether support expert bright -->
     <bool name="need_remove_expert_bright">true</bool>
 <!-- Display END -->
 
 <!-- Usb/Charger BEGIN -->
     <!--battery capacity typ of the device (OnePlus 13: 6000mAh)-->
-    <string name="battery_capacity_typ">6000</string>
+    <string name="battery_capacity_typ">5500</string>
 <!-- Usb/Charger END -->
 
 <!-- WIFI/Connectivity BEGIN -->
@@ -581,7 +581,7 @@
 
 <!-- FingerPrint BEGIN -->
     <!--under-display ultrasonic sensor, not a front capacitive one-->
-    <bool name="front_fingerprint_sensor">false</bool>
+    <bool name="front_fingerprint_sensor">true</bool>
     <!-- fingerprint navigation event name list -->
     <string-array name="fp_nav_event_name_list">
         <item>uinput-fpc</item>
@@ -589,7 +589,7 @@
     </string-array>
     <bool name="support_tap_fingerprint_sensor_to_home">false</bool>
     <!-- whether support heartrate detect (ultrasonic FOD, same class as Xiaomi) -->
-    <bool name="support_heartbeat_rate">true</bool>
+    <bool name="support_heartbeat_rate">false</bool>
 <!-- FingerPrint END -->
 
 <!-- Sensor BEGIN -->
@@ -682,7 +682,7 @@
     <!-- gamebooster mi time -->
     <bool name="support_game_mi_time">false</bool>
     <!-- FOD solution: 3 = ultrasonic under-display sensor -->
-    <integer name="fod_solution">3</integer>
+    <integer name="fod_solution">2/integer>
     <!-- whether support sound assist function -->
     <bool name="support_sound_assist">true</bool>
     <!-- whether support nature mode-->
@@ -744,7 +744,7 @@
     <bool name="support_hdr_enhance">true</bool>
     <bool name="gallery_support_dolby">true</bool>
     <bool name="gallery_support_print">true</bool>
-    <string name="gallery_cpu_series">8750</string>
+    <string name="gallery_cpu_series">8550</string>
     <bool name="gallery_use_mace">true</bool>
     <integer name="gallery_screenshots_version">1</integer>
 
